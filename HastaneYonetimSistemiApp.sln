@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HastaneYonetimSistemiApp.Data", "HastaneYonetimSistemiApp.Data\HastaneYonetimSistemiApp.Data.csproj", "{88C9AA0B-92F6-4D0D-A139-D37CA3CAA51E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HastaneYonetimSistemiApp.Business", "HastaneYonetimSistemiApp.Business\HastaneYonetimSistemiApp.Business.csproj", "{D8CC7581-2363-4660-A9EA-B6D4D636AB92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HastaneYonetimSistemiApp.WebApi", "HastaneYonetimSistemiApp.WebApi\HastaneYonetimSistemiApp.WebApi.csproj", "{DC29594D-E097-4C1C-9680-C30DA3E54E0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88C9AA0B-92F6-4D0D-A139-D37CA3CAA51E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88C9AA0B-92F6-4D0D-A139-D37CA3CAA51E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88C9AA0B-92F6-4D0D-A139-D37CA3CAA51E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88C9AA0B-92F6-4D0D-A139-D37CA3CAA51E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8CC7581-2363-4660-A9EA-B6D4D636AB92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8CC7581-2363-4660-A9EA-B6D4D636AB92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8CC7581-2363-4660-A9EA-B6D4D636AB92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8CC7581-2363-4660-A9EA-B6D4D636AB92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC29594D-E097-4C1C-9680-C30DA3E54E0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC29594D-E097-4C1C-9680-C30DA3E54E0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC29594D-E097-4C1C-9680-C30DA3E54E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC29594D-E097-4C1C-9680-C30DA3E54E0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E38DBD8B-57C2-43AE-859F-A6B5A653C21C}
+	EndGlobalSection
+EndGlobal
