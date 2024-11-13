@@ -43,7 +43,7 @@ namespace HastaneYonetimSistemiApp.WebApi.Controllers
         }
 
         [HttpPost]
-       // [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Staff")]
 
         public async Task<IActionResult> AddDoctor(AddDoctorRequest request)
         {

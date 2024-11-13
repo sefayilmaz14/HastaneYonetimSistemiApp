@@ -66,8 +66,8 @@ namespace HastaneYonetimSistemiApp.WebApi.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = "Admin,Patient")]
-       // [TimeControlFilter]
+        [Authorize(Roles = "Admin,Patient,Staff")]
+        [TimeControlFilter]
         public async Task<IActionResult> AddAppointment(AddAppointmentRequest request)
         {
             var addAppointmentDto = new AddAppointmentDto

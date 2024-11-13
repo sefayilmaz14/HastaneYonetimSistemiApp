@@ -12,7 +12,7 @@ namespace HastaneYonetimSistemiApp.WebApi.Filters
         {
             var now = DateTime.Now.TimeOfDay;
 
-            Startime = "17:00";
+            Startime = "18:00";
             EndTime = "07:00";
 
             if (now >= TimeSpan.Parse(Startime) && now >= TimeSpan.Parse(EndTime))

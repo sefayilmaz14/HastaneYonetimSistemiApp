@@ -24,6 +24,7 @@ namespace HastaneYonetimSistemiApp.WebApi.Controllers
         }
         
         [HttpGet("{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Get(int id)
         {
             var user = await _userService.GetUser(id);
